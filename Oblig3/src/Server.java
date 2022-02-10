@@ -64,7 +64,7 @@ public class Server extends Thread{
                 }
             }
             writer.println("Connection is closing, bye bye!");
-            System.out.println("Closing connection on port: "+port);
+            System.out.println("Closing connection on port: "+connection.getPort());
             reader.close();
             writer.close();
             connection.close();

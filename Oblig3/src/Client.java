@@ -27,13 +27,13 @@ public class Client {
         System.out.println(reader.readLine());
         System.out.println(reader.readLine());
         while(keepConnection){
-            keepConnection=printOutputFromServer(reader.readLine());
+            System.out.println(reader.readLine());
             writer.println(sc.nextLine());
-            keepConnection=printOutputFromServer(reader.readLine());
+            System.out.println(reader.readLine());
             writer.println(sc.nextLine());
-            keepConnection=printOutputFromServer(reader.readLine());
+            System.out.println(reader.readLine());
             writer.println(sc.nextLine());
-            keepConnection=printOutputFromServer(reader.readLine());
+            System.out.println(reader.readLine());
         }
 
         reader.close();
